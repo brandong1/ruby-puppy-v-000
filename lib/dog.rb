@@ -13,7 +13,7 @@ class Dog
   end
 
   def self.all  #Initially, I had an argument of (name), but that didn't work..
-    @@all.each do |dog|
+    @@all.each do |dog|  #I can also write this block of code like: @@all.each {|dog| puts dog.name}
       puts dog.name
     end
   end
